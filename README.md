@@ -14,7 +14,7 @@ In this project, we are tasked with creating a VBA program for Steve so that he 
 
 ### Results
 
-After copying the necessary data from the VBS file onto the Visual Basic prompt, I got to work defining the variables and initializing the arrays that I needed for the program. One of the most important components was the ticker index that contained the tickers of all the stocks being analyzed. The next steps involved creating a series of for loops and conditionals that would scan the worksheets for the desired data depending on the year. Unlike the previous code, which required a button to run the program, this refactored code would analyze the data automatically after the year value was inputted and return the results much faster. Attached below is the subroutine used in this program.
+After copying the necessary data from the VBS file onto the Visual Basic prompt, I got to work defining the variables and initializing the arrays that I needed for the program. One of the most important components was the ticker index that contained the tickers of all the stocks being analyzed. The next steps involved creating a series of for loops and conditionals that would scan the worksheets for the desired data depending on the year. Unlike the previous code, which required a button to run the program, this refactored code would analyze the data automatically after the year value was inputted and return the results much faster. Attached below is the subroutine used in this program. Analyzing the results, every stock except TERP saw a positive return in 2017. However, in 2018, all except for ENPH and RUN saw a decrease in return.
 
  Sub AllStocksAnalysisRefactored()
 
@@ -137,6 +137,9 @@ After copying the necessary data from the VBS file onto the Visual Basic prompt,
 
   End Sub
 
+![2017](/VBA_Challenge_2017.png)
+![2018](/VBA_Challenge_2018.png)
+
 ## Summary
 
 ### Pros and cons of refactoring in general
@@ -146,3 +149,5 @@ In general, refactored code runs much more smoothly and efficiently, allowing on
 ### Advantages and disadvantages of the refactored script
 
 Whereas the original code that required the use of a button had a run time of approximately 0.6 seconds, the refactored code ran in about .12 seconds, which is about 5 times faster. Although this time difference may seem insignificant to us, if Steve were analyzing a much larger amount of data, refactoring his code can result in a major increase in efficiency, leading to higher customer satisfaction for his company. The disadvantage of this is that it requires high levels of knowledge to properly utilize the tools required to refactor the code without introducing more bugs. Steve may have to hire a more advanced programmer. If the time difference is only about a fraction of a second, this would likely not be worth the cost.
+
+![Original code with button](/original_analysis.png)
