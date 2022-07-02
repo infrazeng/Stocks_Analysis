@@ -137,8 +137,8 @@ After copying the necessary data from the VBS file onto the Visual Basic prompt,
 
   End Sub``
 
-![2017](/VBA_Challenge_2017.png)
-![2018](/VBA_Challenge_2018.png)
+![2017](/resources/VBA_Challenge_2017.png)
+![2018](/resources/VBA_Challenge_2018.png)
 
 ## Summary
 
